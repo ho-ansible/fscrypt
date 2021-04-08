@@ -2,9 +2,9 @@
 # Uninstall role
 # Run prior to removing host from inventory groups, so hostvars are accessible
 ---
-- name: template | uninstall
+- name: fscrypt | uninstall
   hosts: all
   tasks:
   - include_role:
-      name: template
+      name: fscrypt 
       tasks_from: uninstall.yml
