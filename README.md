@@ -1,3 +1,5 @@
+# WIP: work in progress
+
 # Ansible role: fscrypt
 File-based encryption on existing ext4 filesystem
 
