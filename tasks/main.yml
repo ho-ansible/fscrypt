@@ -1,1 +1,10 @@
 ---
+
+- name: fscrypt | package
+  tags:
+  - package
+  package:
+    name: fscrypt
+
+- name: fscrypt | check fs feature
+  # tune2fs -l $dev | egrep 'features: .*encrypt'
